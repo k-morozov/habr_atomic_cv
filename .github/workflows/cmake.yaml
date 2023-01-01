@@ -1,0 +1,8 @@
+name: CMake
+
+on:
+  push:
+
+jobs:
+  async:
+    uses: ./.github/workflows/ubuntu-clang.yaml
