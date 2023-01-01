@@ -4,5 +4,5 @@ on:
   push:
 
 jobs:
-  async:
-    uses: ./.github/workflows/ubuntu-clang.yaml
+  ubuntu:
+    uses: ./.github/workflows/ubuntu.yaml
